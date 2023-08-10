@@ -41,7 +41,7 @@ Knowledge about:
 
 👤 **BoanongJoshua**
 
-- GitHub: [@NoubissiViany](https://github.com/boanong/scale-balance)
+- GitHub: [@boanong](https://github.com/boanong/scale-balance)
 
 ## 📝 License
 

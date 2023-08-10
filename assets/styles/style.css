@@ -44,6 +44,7 @@ li a:hover {
 .entire-page {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .balance {
@@ -141,6 +142,10 @@ input::placeholder {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+}
+
+.logo {
+  font-size: 9pt;
 }
 
 @media screen and (max-width: 768px) {
