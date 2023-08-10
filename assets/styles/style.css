@@ -75,7 +75,7 @@ li a:hover {
 }
 
 .whole {
-  background-color:#03396c;
+  background-color: rgb(56, 56, 215);
   width: 95vw;
   border-radius: 5px;
   max-width: 500px;
@@ -155,14 +155,24 @@ input::placeholder {
 
   .balance {
     margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .tagline {
+    text-align: center;
   }
 
   .hero-text-container {
     margin-left: 0;
   }
 
+  .break {
+    display: none;
+  }
+
   .whole {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     border-radius: 0;
   }
