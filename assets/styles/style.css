@@ -5,8 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom,#7fb3e3, #ffffff);
-  display: flex;
+  background: linear-gradient(to bottom, #7fb3e3, #fff);
   align-items: center;
   justify-content: center;
   min-height: 100vh;
@@ -15,7 +14,7 @@ body {
 
 nav {
   height: 50px;
-  padding-left: 90px; 
+  padding-left: 90px;
 }
 
 ul {
@@ -59,7 +58,7 @@ li a:hover {
 }
 
 .everything {
-  color:#03396c;
+  color: #03396c;
 }
 
 .tag {
@@ -75,7 +74,7 @@ li a:hover {
 }
 
 .whole {
-  background-color:#03396c;
+  background-color: #03396c;
   width: 95vw;
   border-radius: 5px;
   max-width: 500px;
@@ -83,7 +82,6 @@ li a:hover {
   display: flex;
   flex-flow: column wrap;
   padding: 10px;
-  box-shadow: inset 0px -10px 10px -10px rgba(0,0,0,0.5);
 }
 
 .whole .input-section {
@@ -155,14 +153,24 @@ input::placeholder {
 
   .balance {
     margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .tagline {
+    text-align: center;
   }
 
   .hero-text-container {
     margin-left: 0;
   }
 
+  .break {
+    display: none;
+  }
+
   .whole {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     border-radius: 0;
   }
